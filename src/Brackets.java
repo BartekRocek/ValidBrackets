@@ -13,10 +13,8 @@ public class Brackets {
     }
 
     public static void main(String[] args) {
-//        String brackets = "[]({}";
-
                 String brackets = "()((()()){})";
-//        String brackets = "()()";
+
         StringBuilder bracketsToManipulate = new StringBuilder(brackets);
 
         int lengthOfBrackets = bracketsToManipulate.length();
