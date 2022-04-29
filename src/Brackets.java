@@ -22,7 +22,6 @@ public class Brackets {
 
         System.out.println("The original brackets pattern: " + bracketsToManipulate);
 
-
         for (; i < lengthOfBrackets; i++) {
             try {
                 if (bracketsMirrored(bracketsToManipulate.charAt(i), bracketsToManipulate.charAt(i + 1))) {
